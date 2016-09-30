@@ -1,0 +1,138 @@
+@import url("smartphone.css") (max-width:320px);
+@import url("desktop.css") (min-width:321px);
+
+body {
+height:1048px ;
+width:700px ;
+margin:20px 0 0 -350px;
+padding:0 ;
+position:absolute ;
+border:1px ridge black ;
+left:40% ;
+right:60% ;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header {
+background:url(themes/abstrait-4.png) no-repeat top center ;
+height:100px ;
+width:700px ;
+margin:0 ;
+padding:0 ;
+border-bottom:1px ridge black ;
+text-align:center ;
+line-height:120% ;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-style:bold ;
+font-size:20px ;
+color:black ;
+}
+
+#header .petit {
+font-size:14px ;
+}
+
+#menu {
+height:648px ;
+width:1500px ;
+margin:0 ;
+padding:0 ;
+border-right:1px ridge black ;
+}
+
+#menu a {
+height:50px ;
+width:160px ;
+display:block ;
+background-color:grey ;
+text-align:center ;
+line-height:45px ;
+color:white ;
+background:url(themes/btn_5.png) no-repeat top center ;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#menu a:hover {
+text-decoration: underline; 
+color: red ;
+background-color:yellow ;
+
+}
+
+#corps {
+height:647px ;
+width:549px ;
+margin:-648px 20px 20px 151px;
+padding:20px -30px 0 30px ;
+text-align:center ;
+line-height: 75% ;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-style:italic ;
+font-weight:bold ;
+font-size:18px ;
+color:black ;
+}
+
+#contenu {
+height:947px ;
+width:549px ;
+margin:-648px 20px 20px 151px;
+padding:20px -30px 0 30px ;
+text-align : left ;
+line-height: 120% ;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-style:normal ;
+font-size:16px ;
+color:black ;
+display:block ;
+text-indent:10px ;
+}
+
+h3 {
+text-align:center ;
+text-decoration:underline ;
+}
+
+h2 {
+font-size:18px ;
+}
+
+#liens a {
+height:50px ;
+width:160px ;
+display:block ;
+background-color:grey ;
+text-align:center ;
+line-height:50px ;
+color:white ;
+background:url(themes/btn_2.png) no-repeat top center ;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#liens a:hover {
+text-decoration: underline; 
+color: red ;
+background-color:pink ;
+}
+
+#foot2 a {
+text-decoration:none;
+color:purple ;
+}
+
+#foot2 a:hover {
+text-decoration: underline; 
+color: blue ;
+}
+
+#foot a {
+text-decoration:none;
+color:purple ;
+}
+
+#foot a:hover {
+text-decoration: underline; 
+color: blue ;
+}
