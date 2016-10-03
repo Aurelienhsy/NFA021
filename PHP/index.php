@@ -10,10 +10,10 @@
 <meta http-equiv="Content-Language" content="fr" />
 <meta name="robots" content="all" /> 
 <meta name="Copyright" content="&copy; 2014 ABVL" /> 
-<meta name="author" content="ABVL" /> 
+<meta name="author" content="AurÃ©lien Houssay" /> 
 <meta name="reply-to" content ="abvl@abvl.fr" /> 
 <meta name="description" content="vente de livres"/> 
-<meta name="keywords" content="livres, dictionnaire, encyclopédie"/> 
+<meta name="keywords" content="livres, dictionnaire, encyclopÃ©die"/> 
 
 </head>
 <body>
@@ -21,11 +21,11 @@
 <div id="header">
 <br/>
 Site de l'ABVL, agence de vente en ligne de livres<br/>
-<span class="petit">(dictionnaires, encyclopédies)</span>
+<span class="petit">(dictionnaires, encyclopÃ©dies)</span>
 </div>
 
 <div id="menu">
-        <a title="Présentation" href="presentation.php">Présentation</a><br/>
+        <a title="PrÃ©sentation" href="presentation.php">PrÃ©sentation</a><br/>
         <a title="Articles" href="articles.php">Articles</a><br/>
 		<a title="Formulaire" href="inscription.php">Votre compte</a><br/>
 </div>	
@@ -36,7 +36,7 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 <br/>
 Bienvenue cher visiteur,
 <br></br>
-nous vous invitons à découvrir nos services.
+nous vous invitons Ã  dÃ©couvrir nos services.
 </div>	
 </body>
 <div id="foot">
