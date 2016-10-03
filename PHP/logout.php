@@ -12,19 +12,19 @@
 <meta http-equiv="Content-Language" content="fr" />
 <meta name="robots" content="all" /> 
 <meta name="Copyright" content="&copy; 2014 ABVL" />
-<meta name="author" content="ABVL" /> 
+<meta name="author" content="AurÃ©lien Houssay" /> 
 <meta name="reply-to" content ="abvl@abvl.fr" /> 
 <meta name="description" content="vente de livres"/> 
-<meta name="keywords" content="livres, dictionnaire, encyclopédie"/> 
+<meta name="keywords" content="livres, dictionnaire, encyclopÃ©die"/> 
 <body>	
 <div id="header">
 <br/>
 Site de l'ABVL, agence de vente en ligne de livres<br/>
-<span class="petit">(dictionnaires, encyclopédies)</span>
+<span class="petit">(dictionnaires, encyclopÃ©dies)</span>
 </div>
 
 <div id="menu">
-        <a title="Présentation" href="presentation.html">Présentation</a><br/>
+        <a title="PrÃ©sentation" href="presentation.html">PrÃ©sentation</a><br/>
         <a title="Articles" href="articles.html">Articles</a><br/>
 		<a title="Formulaire" href="formulaire.php">Formulaire</a><br/>
 </div>	
@@ -44,7 +44,7 @@ header('Location:connexion.php');
 </body>
 	<div id="foot2">
 		<div id="left">	
-		<div id="right"> <p id="retour"><a href="index.html">Retour à l'accueil</a></p> </div>
+		<div id="right"> <p id="retour"><a href="index.html">Retour Ã  l'accueil</a></p> </div>
 				<p id="copyright">
 					<a href="mailto:abvl@abvl.fr">&copy; 2014, ABVL</a>
 				</p>
