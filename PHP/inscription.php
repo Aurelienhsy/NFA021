@@ -12,19 +12,19 @@
 <meta http-equiv="Content-Language" content="fr" />
 <meta name="robots" content="all" /> 
 <meta name="Copyright" content="&copy; 2014 ABVL" />
-<meta name="author" content="ABVL" /> 
+<meta name="author" content="Aur√©lien Houssay" /> 
 <meta name="reply-to" content ="abvl@abvl.fr" /> 
 <meta name="description" content="vente de livres"/> 
-<meta name="keywords" content="livres, dictionnaire, encyclopÈdie"/> 
+<meta name="keywords" content="livres, dictionnaire, encyclop√©die"/> 
 <body>	
 <div id="header">
 <br/>
 Site de l'ABVL, agence de vente en ligne de livres<br/>
-<span class="petit">(dictionnaires, encyclopÈdies)</span>
+<span class="petit">(dictionnaires, encyclop√©dies)</span>
 </div>
 
 <div id="menu">
-        <a title="PrÈsentation" href="presentation.php">PrÈsentation</a><br/>
+        <a title="Pr√©sentation" href="presentation.php">Pr√©sentation</a><br/>
         <a title="Articles" href="articles.php">Articles</a><br/>
 		<a title="Formulaire" href="inscription.php">Votre compte</a><br/>
 </div>	
@@ -32,7 +32,7 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 
 <h2>Inscription</h2>
 
-<p>Si vous avez dÈj‡ un compte, <a href="connexion.php">connectez-vous ici</a></p>
+<p>Si vous avez d√©j√† un compte, <a href="connexion.php">connectez-vous ici</a></p>
 <br><br>
 <form method="post" action="inscription.php">
 <fieldset>
@@ -42,7 +42,7 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 <input type="email" name="mail">
 <p>Votre mot de passe :</p>
 <input type="password" name="pass">
-<p>RÈpÈtez le mot de passe :</p>
+<p>R√©p√©tez le mot de passe :</p>
 <input type="password" name="repeatpass"><br><br>
 <input type="submit" name="submit" value="Validez">
 </fieldset>
@@ -72,7 +72,7 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 						
 						$query = mysql_query("INSERT INTO users values('', '$nom', '$mail', '$pass', '$repeatpass')") ;
 						
-						die('Inscription rÈussie, vous pouvez dÈsormais vous <a href="connexion.php">connecter ici</a>') ;
+						die('Inscription r√©ussie, vous pouvez d√©sormais vous <a href="connexion.php">connecter ici</a>') ;
 						
 					} else echo "Veuillez retaper correctement votre mot de passe" ;
 				} else echo "Votre mot de passe est trop court" ;
@@ -84,7 +84,7 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 </body>
 	<div id="foot2">
 		<div id="left">	
-		<div id="right"> <p id="retour"><a href="index.php">Retour ‡ l'accueil</a></p> </div>
+		<div id="right"> <p id="retour"><a href="index.php">Retour √† l'accueil</a></p> </div>
 				<p id="copyright">
 					<a href="mailto:abvl@abvl.fr">&copy; 2014, ABVL</a>
 				</p>
