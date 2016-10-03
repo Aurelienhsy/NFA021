@@ -12,10 +12,10 @@
 <meta http-equiv="Content-Language" content="fr" />
 <meta name="robots" content="all" /> 
 <meta name="Copyright" content="&copy; 2014 ABVL" />
-<meta name="author" content="ABVL" /> 
+<meta name="author" content="AurÃ©lien Houssay" /> 
 <meta name="reply-to" content ="abvl@abvl.fr" /> 
 <meta name="description" content="vente de livres"/> 
-<meta name="keywords" content="livres, dictionnaire, encyclopédie"/> 
+<meta name="keywords" content="livres, dictionnaire, encyclopÃ©die"/> 
 
 </head>
 
@@ -23,13 +23,13 @@
 <div id="header">
 <br/>
 Site de l'ABVL, agence de vente en ligne de livres<br/>
-<span class="petit">(dictionnaires, encyclopédies)</span>
+<span class="petit">(dictionnaires, encyclopÃ©dies)</span>
 </div>
 
 <div id="menu">
-        <a title="Présentation" href="presentation.php">Présentation</a><br/>
+        <a title="PrÃ©sentation" href="presentation.php">PrÃ©sentation</a><br/>
         <a title="Dictionnaire" href="dictionnaire.php">Dictionnaires</a><br/>
-		<a title="Encyclopédie" href="encyclopedie.php">Encyclopédies</a><br/>
+		<a title="EncyclopÃ©die" href="encyclopedie.php">EncyclopÃ©dies</a><br/>
 		<a title="Quid" href="quid.php">Quids</a><br/>
 		<a title="Formulaire" href="inscription.php">Votre compte</a><br/>
 </div>	
@@ -37,17 +37,17 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 <div id="contenu">
 <br/>
 
-<p>Le Petit Larousse Illustré (prix : 45 € ; édition 2012 ; 1984 pages) :</p>
+<p>Le Petit Larousse IllustrÃ© (prix : 45 â‚¬ ; Ã©dition 2012 ; 1984 pages) :</p>
 <br/>
 <center><img src="themes/larousse.jpg" width="x" height="y">
 </center>
 <br/>
-<p>Le Petit Robert (prix : 56  € ; édition 2011 ; 2837 pages) :</p>
+<p>Le Petit Robert (prix : 56  â‚¬ ; Ã©dition 2011 ; 2837 pages) :</p>
 <br/>
 <center><img src="themes/Robert_2011.jpg" width="x" height="y">
 </center>
 <br/>
-<p>Le Nouveau Petit Robert (prix : 89  € ; édition 2010 ; 2880 pages) :</p>
+<p>Le Nouveau Petit Robert (prix : 89  â‚¬ ; Ã©dition 2010 ; 2880 pages) :</p>
 <br/>
 <center><img src="themes/Robert_2010.jpg" width="x" height="y">
 </center>
@@ -55,8 +55,8 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 </body>
 	<div id="foot2">
 		<div id="left">	
-		<p id="retour"><a href="articles.php">Retour à la liste des articles</a></p>
-		<p id="retour"><a href="index.php">Retour à l'accueil du site</a></p> </div>
+		<p id="retour"><a href="articles.php">Retour Ã  la liste des articles</a></p>
+		<p id="retour"><a href="index.php">Retour Ã  l'accueil du site</a></p> </div>
 				<p id="copyright">
 					<a href="mailto:abvl@abvl.fr">&copy; 2014, ABVL</a>
 				</p>
