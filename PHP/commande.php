@@ -12,7 +12,7 @@
 <meta http-equiv="Content-Language" content="fr" />
 <meta name="robots" content="all" /> 
 <meta name="Copyright" content="&copy; 2014 ABVL" />
-<meta name="author" content="ABVL" /> 
+<meta name="author" content="Aurélien Houssay" /> 
 <meta name="reply-to" content ="abvl@abvl.fr" /> 
 <meta name="description" content="vente de livres"/> 
 <meta name="keywords" content="livres, dictionnaire, encyclopédie"/> 
