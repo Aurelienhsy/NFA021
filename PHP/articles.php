@@ -12,10 +12,10 @@
 <meta http-equiv="Content-Language" content="fr" />
 <meta name="robots" content="all" /> 
 <meta name="Copyright" content="&copy; 2014 ABVL" />
-<meta name="author" content="ABVL" /> 
+<meta name="author" content="AurÃ©lien Houssay" /> 
 <meta name="reply-to" content ="abvl@abvl.fr" /> 
 <meta name="description" content="vente de livres"/> 
-<meta name="keywords" content="livres, dictionnaire, encyclopédie"/> 
+<meta name="keywords" content="livres, dictionnaire, encyclopÃ©die"/> 
 
 </head>
 
@@ -23,11 +23,11 @@
 <div id="header">
 <br/>
 Site de l'ABVL, agence de vente en ligne de livres<br/>
-<span class="petit">(dictionnaires, encyclopédies)</span>
+<span class="petit">(dictionnaires, encyclopÃ©dies)</span>
 </div>
 
 <div id="menu">
-        <a title="Présentation" href="presentation.php">Présentation</a><br/>
+        <a title="PrÃ©sentation" href="presentation.php">PrÃ©sentation</a><br/>
         <a title="Articles" href="articles.php">Articles</a><br/>
 		<a title="Formulaire" href="inscription.php">Votre compte</a><br/>
 </div>	
@@ -37,10 +37,10 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 <br/>
 <br/>
 <br/>
-<center><h2>Les articles susceptibles de vous intéresser (cliquez sur les boutons) :</h2>
+<center><h2>Les articles susceptibles de vous intÃ©resser (cliquez sur les boutons) :</h2>
 <br/>
 <a title="Dictionnaire" href="dictionnaire.php">Dictionnaires</a><br/>
-		<a title="Encyclopédie" href="encyclopedie.php">Encyclopédies</a><br/>
+		<a title="EncyclopÃ©die" href="encyclopedie.php">EncyclopÃ©dies</a><br/>
 		<a title="Quid" href="quid.php">Quids</a><br/></div>
 </center> 
 </div>
@@ -48,7 +48,7 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 	<div id="foot2">
 		<div id="left">	
 		<div id="right"> 
-		<p id="retour"><a href="index.php">Retour à l'accueil</a></p> </div>
+		<p id="retour"><a href="index.php">Retour Ã  l'accueil</a></p> </div>
 				<p id="copyright">
 					<a href="mailto:abvl@abvl.fr">&copy; 2014, ABVL</a>
 				</p>
