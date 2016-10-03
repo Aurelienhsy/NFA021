@@ -6,16 +6,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
-<title>Encyclopédie</title>
+<title>EncyclopÃ©die</title>
 <link href="style2.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="print.css" rel="stylesheet" type="text/css" media="print" />
 <meta http-equiv="Content-Language" content="fr" />
 <meta name="robots" content="all" /> 
 <meta name="Copyright" content="&copy; 2014 ABVL" />
-<meta name="author" content="ABVL" /> 
+<meta name="author" content="AurÃ©lien Houssay" /> 
 <meta name="reply-to" content ="abvl@abvl.fr" /> 
 <meta name="description" content="vente de livres"/> 
-<meta name="keywords" content="livres, dictionnaire, encyclopédie"/> 
+<meta name="keywords" content="livres, dictionnaire, encyclopÃ©die"/> 
 
 </head>
 
@@ -23,26 +23,26 @@
 <div id="header">
 <br/>
 Site de l'ABVL, agence de vente en ligne de livres<br/>
-<span class="petit">(dictionnaires, encyclopédies)</span>
+<span class="petit">(dictionnaires, encyclopÃ©dies)</span>
 </div>
 
 <div id="menu">
-        <a title="Présentation" href="presentation.php">Présentation</a><br/>
+        <a title="PrÃ©sentation" href="presentation.php">PrÃ©sentation</a><br/>
         <a title="Dictionnaire" href="dictionnaire.php">Dictionnaires</a><br/>
-		<a title="Encyclopédie" href="encyclopedie.php">Encyclopédies</a><br/>
+		<a title="EncyclopÃ©die" href="encyclopedie.php">EncyclopÃ©dies</a><br/>
 		<a title="Quid" href="quid.php">Quids</a><br/>
 		<a title="Formulaire" href="inscription.php">Votre compte</a><br/>
 </div>	
 
 <div id="contenu">
 <br/>
-<p>Encyclopaedia Universalis (prix : 1000 € ;  édition 1996 ; 22 volumes) :</p>
+<p>Encyclopaedia Universalis (prix : 1000 â‚¬ ;  Ã©dition 1996 ; 22 volumes) :</p>
 <br/>
 <center>
 <img src="themes/universalis.jpg" width="x" height="y">
 </center>
 <br/>
-<p>Encyclopédie Larousse (prix : 100  € ; édition 2010 ; 20 volumes) :</p>
+<p>EncyclopÃ©die Larousse (prix : 100  â‚¬ ; Ã©dition 2010 ; 20 volumes) :</p>
 <br/>
 <center>
 <img src="themes/ENCYCLOPEDIE-LAROUSSE.jpg" width="x" height="y">
@@ -52,8 +52,8 @@ Site de l'ABVL, agence de vente en ligne de livres<br/>
 </body>
 	<div id="foot2">
 		<div id="left">	
-		<p id="retour"><a href="articles.php">Retour à la liste des articles</a></p>
-		<p id="retour"><a href="index.php">Retour à l'accueil du site</a></p> </div>
+		<p id="retour"><a href="articles.php">Retour Ã  la liste des articles</a></p>
+		<p id="retour"><a href="index.php">Retour Ã  l'accueil du site</a></p> </div>
 				<p id="copyright">
 					<a href="mailto:abvl@abvl.fr">&copy; 2014, ABVL</a>
 				</p>
