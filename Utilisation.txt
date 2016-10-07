@@ -1,18 +1,18 @@
 
 Trois styles selon les situations :
 
-La couleur du background du site est bleue pour les écrans d'ordinateur
+La couleur du background du site est bleue pour les Ã©crans d'ordinateur
 (desktop.css), rouge clair pour les smartphones (smartphone.css).
-La couleur des caractères devient verte pour l'impression (print.css).
+La couleur des caractÃ¨res devient verte pour l'impression (print.css).
 
 Les formulaires d'inscription et de connection :
 
-La programmation PHP avec système des sessions est utilisée, ainsi que la
+La programmation PHP avec systÃ¨me des sessions est utilisÃ©e, ainsi que la
 technologie MySQL.
 
-Les deux formulaires se connectent à une base de données intitulée « phpins »
-(dans la librairie localhost), laquelle contient une table « users » agencée de cette
-façon :
+Les deux formulaires se connectent Ã  une base de donnÃ©es intitulÃ©e Â« phpins Â»
+(dans le domaine localhost), laquelle contient une table Â« users Â» agencÃ©e de cette
+faÃ§on :
 
 5 colonnes :
 
@@ -22,38 +22,38 @@ façon :
 - pass, type varchar, taille : 255
 - repeatpass, type varchar, taille : 255
 
-Pour le client, les champs à saisir sont donc : le nom, l'adresse mail, et un mot
-de passe à répéter (le mot de passe est tapé une seule fois cependant pour le
+Pour le client, les champs Ã  saisir sont donc : le nom, l'adresse mail, et un mot
+de passe Ã  rÃ©pÃ©ter (le mot de passe est tapÃ© une seule fois cependant pour le
 formulaire de connection).
 
-Les programmes servant à interagir avec la base de données (fonction
-mysql_connect) et à établir des contraintes d'utilisation (avec publication automatique
-de messages d'alerte spécifiques pour chaque cas de mauvaise saisie) se trouvent
+Les programmes servant Ã  interagir avec la base de donnÃ©es (fonction
+mysql_connect) et Ã  Ã©tablir des contraintes d'utilisation (avec publication automatique
+de messages d'alerte spÃ©cifiques pour chaque cas de mauvaise saisie) se trouvent
 directement dans les fichiers inscription.php et connection.php
 
-Tous les inscrits et connectés sont enregistrés dans la base, avec leurs noms,
-mails et mots de passe (ces derniers sont cryptés par la fonction MD5), grâce à un
-système de sessions (session_start();).
+Tous les inscrits et connectÃ©s sont enregistrÃ©s dans la base, avec leurs noms,
+mails et mots de passe (ces derniers sont cryptÃ©s par la fonction MD5), grÃ¢ce Ã  un
+systÃ¨me de sessions (session_start();).
 
 Une fois les champs du formulaire correctement remplis, le client/usager est
-accueilli sur espace.php par un message de bienvenue personnalisé (mention de son
-nom, du fait de l'initialisation programmée de sa session).
+accueilli sur espace.php par un message de bienvenue personnalisÃ© (mention de son
+nom, du fait de l'initialisation programmÃ©e de sa session).
 
 La fonction session_destroy(); dans le programme du fichier logout.php offre au client la 
-possibilité de se déconnecter (et d'être ainsi redirigé automatiquement vers la page de 
+possibilitÃ© de se dÃ©connecter (et d'Ãªtre ainsi redirigÃ© automatiquement vers la page de 
 connection originale).
 
-Le système de panier :
+Le systÃ¨me de panier :
 
-La programmation POO et l'architecture MVC sont utilisées, avec le langage
+La programmation POO et l'architecture MVC sont utilisÃ©es, avec le langage
 PHP, et la technologie MySQL.
 
-Le panier est connecté à une base de données intitulée “ phpanier” (toujours
-localhost), avec une table “produits” qui comprend 3 colonnes :
+Le panier est connectÃ© Ã  une base de donnÃ©es intitulÃ©e â€œ phpanierâ€ (toujours
+localhost), avec une table â€œproduitsâ€ qui comprend 3 colonnes :
 
 - id, type int, taille : 11, extra : ayti_increment
 - name, type varchar, taille : 255
-- price, type float, taille : 255, défaut : null
+- price, type float, taille : 255, dÃ©faut : null
 
 Cette table permet d'entrer manuellement la liste des produits/valeurs en vente,
 qui sont :
@@ -67,20 +67,20 @@ qui sont :
 - 7, Quid 2006, 50
 - 8, Quid 2005, 50
 
-Une fois entrés dans la table, la liste s'affiche sur la page catalogue.php
-(connectée à la base de données via l'extension MySQLI), elle est consultable et
+Une fois entrÃ©s dans la table, la liste s'affiche sur la page catalogue.php
+(connectÃ©e Ã  la base de donnÃ©es via l'extension MySQLI), elle est consultable et
 utilisable par les seuls clients ayant un espace membre, puisque la page n'est
 accessible que via la page espace.php
 
-La classe Panier dans le fichier panier.php gère le fonctionnement de
-l'ensemble du système de panier par une série de requêtes SQL. Les instructions dans
-le programme de selection.php permettent de sélectionner un produit et d'en fixer la
-quantité désirée. Celles du fichier ajout.php servent à ajouter un autre produit. Et
-enfin, le programme de suppression.php permet d'annuler un produit sélectionné.
+La classe Panier dans le fichier panier.php gÃ¨re le fonctionnement de
+l'ensemble du systÃ¨me de panier par une sÃ©rie de requÃªtes SQL. Les instructions dans
+le programme de selection.php permettent de sÃ©lectionner un produit et d'en fixer la
+quantitÃ© dÃ©sirÃ©e. Celles du fichier ajout.php servent Ã  ajouter un autre produit. Et
+enfin, le programme de suppression.php permet d'annuler un produit sÃ©lectionnÃ©.
 
-Les produits sélectionnés par chaque client sont enregistrés et visibles par lui
+Les produits sÃ©lectionnÃ©s par chaque client sont enregistrÃ©s et visibles par lui
 sur la page commande.php
 
-Une fois la commande confirmée, il est redirigé automatiquement sur une page
-à cet effet (confirmation.php), où un message lui annonce que sa commande a été
-prise en compte et il lui est proposé de revenir au catalogue via un lien.
+Une fois la commande confirmÃ©e, il est redirigÃ© automatiquement sur une page
+Ã  cet effet (confirmation.php), oÃ¹ un message lui annonce que sa commande a Ã©tÃ©
+prise en compte et il lui est proposÃ© de revenir au catalogue via un lien.
